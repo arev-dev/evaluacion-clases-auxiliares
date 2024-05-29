@@ -50,9 +50,10 @@ public class Main {
 
         System.out.println("---------------------------------");
         System.out.println("Los Clientes Registrados son: ");
+        System.out.println("ID | CODIGO | NOMBRE | APELLIDO | EMAIL | TELEFONO");
+
 
         while(it.hasNext()){
-            System.out.println("\n");
             System.out.println(it.next());
         }
     }

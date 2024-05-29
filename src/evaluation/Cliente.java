@@ -29,14 +29,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente {" +
-                "Id=" + id +
-                ", Codigo="+codigo+
-                ", Nombre='" + nombre + '\'' +
-                ", Apellido='" + apellido + '\'' +
-                ", Email='" + email + '\'' +
-                ", Telefono='" + telefono + '\'' +
-                '}';
+        return "  "+ id + "  " + codigo + "  " + nombre + "  " +apellido+ "  "+email + "  " + telefono;
     }
 
     public int getId() {
